@@ -1,0 +1,25 @@
+{
+    "editor.suggest.showMethods": true,
+    "editor.suggest.showFields": true,
+    "editor.suggest.showClasses": true,
+    "editor.suggest.showKeywords": true,
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    },
+    "editor.snippetSuggestions": "top",
+    "editor.tabCompletion": "on",
+    "editor.acceptSuggestionOnEnter": "on",
+    "java.completion.enabled": true,
+    "java.completion.guessMethodArguments": "auto",
+    "java.completion.importOrder": [
+        "java",
+        "javax",
+        "com",
+        "org"
+    ],
+    "java.autobuild.enabled": true,
+    "java.inlayHints.parameterNames.enabled": "all"
+}
