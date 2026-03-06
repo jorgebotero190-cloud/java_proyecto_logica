@@ -21,14 +21,14 @@ public class Main {
  
 
         System.out.println();
-        System.out.println("conversion de tipos");
+        System.out.println(" Clases: Conversion de tipos");
         System.out.println();
         ConversionDeTipos.demostrarCastingImplicito();
         ConversionDeTipos.demostrarCastingExplicito();
         ConversionDeTipos.demostrarProblemasDePrecision();
 
         System.out.println();
-        System.out.println("Operadores");
+        System.out.println(" Clases: Operadores");
         System.out.println();
         Operadores.demostrarOperadoresAritmeticos();
         Operadores.demostracionIncrementoDecremento();
@@ -36,15 +36,19 @@ public class Main {
         System.out.println();
         Operadores.demostrarOperadoresLogicos();
 
-        System.out.println("Arreglos unidimensionales");
+        System.out.println(" Clases: Arreglos unidimensionales");
         ArreglosUnidimensionales.declararCrearInicializar();
         
         System.out.println();
-        System.out.println("Entrada de datos");
+        System.out.println(" Clases Entrada de datos");
         System.err.println();
-        // Comentado: requiere entrada interactiva
-        // EntradaDeDatos.leerVariosTipos();
-        // EntradaDeDatos.manejarSaltoDeLineaPendiente();
+       // EntradaDeDatos.leerVariosTipos();
+     //   EntradaDeDatos.manejarSaltoDeLineaPendiente();
+
+
+        System.out.println();
+        System.out.println("CLASE: Estructuras Condicionales");
+        System.out.println();
         EstructurasCondicionales.ejemplosIF();
         EstructurasCondicionales.ejemplosIfElse();
         EstructurasCondicionales.ejemplosIfElseIf();
@@ -52,7 +56,7 @@ public class Main {
 
 
         System.out.println();
-        System.out.println("Estructuras de repetición");
+        System.out.println(" clases: Estructuras de repetición");
         System.err.println();
         EstructurasDeRepeticion.ejemplosWhile();
         EstructurasDeRepeticion.ejemplosDoWhile();
@@ -63,7 +67,7 @@ public class Main {
 
 
         System.out.println();
-        System.err.println("CLASE: MétodosEstaticosSimples");
+        System.err.println("CLASE: Métodos Estaticos Simples");
         System.out.println();
         MetodosEstaticosSimples.ejemploDeclaracionLlamada();
         MetodosEstaticosSimples.ejemploPasoDeParametros("carlos");
@@ -75,7 +79,7 @@ public class Main {
         System.out.println("Multiplicacion double: " + multiplicacion);
 
         System.out.println();
-        System.out.println("CLASE: ArreglosBidimensionales");
+        System.out.println("CLASE: Arreglos Bidimensionales");
         System.out.println();
         ArreglosBidimensionales.declararCrearMatrices();
         ArreglosBidimensionales.recorrerMatriz();
@@ -83,7 +87,7 @@ public class Main {
 
 
         System.out.println();
-        System.out.println("CLASE: ManipulacionCadenas");
+        System.out.println("CLASE: Manipulacion de Cadenas");
         System.out.println();
         ManipulacionCadenas.demostrarConcatenacion();
         ManipulacionCadenas.demostrarLongitud();
@@ -93,9 +97,15 @@ public class Main {
         ManipulacionCadenas.demostrarMayusculasMinusculas();
         ManipulacionCadenas.demostrarSplit();
         ManipulacionCadenas.demostrarTrim();
-        
 
-        
+
+        System.out.println();
+        System.out.println("CLASE: Manejo de Excepciones");
+        System.out.println();
+        ManejoBasicoExcepciones.ejemploTryCatchDivicion();
+        ManejoBasicoExcepciones.ejemploTryCatchImput();
+        ManejoBasicoExcepciones.evitarCierrePrograma();
+        ManejoBasicoExcepciones.ejemploBloqueFinally();
 
     }
 
